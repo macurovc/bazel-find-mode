@@ -18,6 +18,9 @@ Then load `bazel-find-mode.el` in your `~/.emacs` with for example:
 (require 'bazel-find-mode)
 ```
 
+Make sure that the `bazel-command` option contains the correct Bazel command for
+your project.
+
 ## Usage
 
 Whenever you open a Bazel file (e.g. `BUILD` or `WORKSPACE`), move the cursor on
